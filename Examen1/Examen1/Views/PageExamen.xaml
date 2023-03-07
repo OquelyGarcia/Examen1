@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen1.Views.PageExamen">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry x:Name="txtnombre" Placeholder="Nombres" Keyboard="Text"
+            
+            <Entry x:Name="txtapellidos" Placeholder="Apellidos" Keyboard="Text" 
+                   
+            <Entry x:Name="txtedad" Placeholder="Edad" Keyboard="Int" 
+                   
+            <Entry x:Name="txtpais" Placeholder="Pais" Keyboard="Text"
+                  
+            <Entry x:Name="txtnota" Placeholder="Nota" Keyboard="Text"
+                   
+             <Entry x:Name="txtlatitud" Placeholder="Latitud" Keyboard="Text"
+                    
+             <Entry x:Name="txtlongitud" Placeholder="Longitud" Keyboard="Text"
+                    
+              <Button x:Name="btnguardar" Text="Guardar Informacion" Clicked="btnfoto_Clicked"   
+                    
+             
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
